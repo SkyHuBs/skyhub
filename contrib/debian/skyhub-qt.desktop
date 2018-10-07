@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SkyHub
+Comment=SkyHub P2P Cryptocurrency
+Comment[fr]=SkyHub, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SkyHub, eşten eşe kriptografik sanal para birimi
+Exec=skyhub-qt %u
+Terminal=false
+Type=Application
+Icon=skyhub128
+MimeType=x-scheme-handler/skyhub;
+Categories=Office;Finance;

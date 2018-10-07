@@ -1,0 +1,26 @@
+[Unit]
+Description=SkyHub's distributed currency daemon
+After=network.target
+
+[Service]
+User=skyhub
+Group=skyhub
+
+Type=forking
+PIDFile=/var/lib/skyhubd/skyhubd.pid
+
+ExecStart=/usr/bin/skyhubd -daemon -pid=/var/lib/skyhubd/skyhubd.pid \
+          -conf=/etc/skyhub/skyhub.conf -datadir=/var/lib/skyhubd
+
+ExecStop=-/usr/bin/skyhub-cli -conf=/etc/skyhub/skyhub.conf \
+         -datadir=/var/lib/skyhubd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

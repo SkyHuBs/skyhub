@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/skyhub_ca.qm</file>
+        <file alias="da">locale/skyhub_da.qm</file>
+        <file alias="de">locale/skyhub_de.qm</file>
+        <file alias="en">locale/skyhub_en.qm</file>
+        <file alias="en_US">locale/skyhub_en_US.qm</file>
+        <file alias="es">locale/skyhub_es.qm</file>
+        <file alias="fr_FR">locale/skyhub_fr_FR.qm</file>
+        <file alias="it">locale/skyhub_it.qm</file>
+        <file alias="ja">locale/skyhub_ja.qm</file>
+        <file alias="pt">locale/skyhub_pt.qm</file>
+        <file alias="ro_RO">locale/skyhub_ro_RO.qm</file>
+        <file alias="ru">locale/skyhub_ru.qm</file>
+        <file alias="zh_TW">locale/skyhub_zh_TW.qm</file>
+    </qresource>
+</RCC>

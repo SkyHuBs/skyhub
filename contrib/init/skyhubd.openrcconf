@@ -1,0 +1,26 @@
+# /etc/conf.d/skyhubd: config file for /etc/init.d/skyhubd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/skyhub/skyhub.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/skyhubd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/skyhubd.pid"
+
+# Where to write skyhubd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/skyhubd"
+
+# User and group to own skyhubd process
+#BITCOIND_USER="skyhub"
+#BITCOIND_GROUP="skyhub"
+
+# Path to skyhubd executable
+#BITCOIND_BIN="/usr/bin/skyhubd"
+
+# Nice value to run skyhubd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

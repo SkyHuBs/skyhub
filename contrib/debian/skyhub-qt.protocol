@@ -1,0 +1,11 @@
+[Protocol]
+exec=skyhub-qt '%u'
+protocol=skyhub
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
